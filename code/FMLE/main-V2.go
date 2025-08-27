@@ -1,4 +1,4 @@
-package main-V2
+package main-v2
 
 import (
 	"crypto/aes"

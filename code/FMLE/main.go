@@ -563,7 +563,6 @@ func main() {
 
 			fmt.Printf("唯一块数量: %d\n", metrics.UniqueBlocks)
 			fmt.Printf("重复块数量: %d\n", metrics.DuplicateBlocks)
-			fmt.Printf("重复率: %.2f%%\n", metrics.DedupRatio*100)
 			fmt.Printf("密钥生成耗时: %v\n", metrics.KeyGenTime)
 			fmt.Printf("加密耗时: %v\n", metrics.EncryptTime)
 			fmt.Printf("解密耗时: %v\n", metrics.DecryptTime)
